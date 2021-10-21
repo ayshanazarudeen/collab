@@ -1,4 +1,4 @@
-describe('Smartbear', () => {
+describe('Smartbea', () => {
   it('Should take you to Smartbear WEbsite', () => {
       browser.get('http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx');
       browser.getCurrentUrl().then((url) => {
