@@ -6,7 +6,7 @@ var Greeter = /** @class */ (function () {
     Greeter.prototype.greet = function () {
         return "Hello, " + this.greeting;
     };
-    return Greeter;
+    return Greter;
 }());
 var greeter = new Greeter();
 console.log(greeter.greet());
